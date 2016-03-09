@@ -8,7 +8,10 @@ You might want to configure/change the following values of preseed.cfg
 - Keyboard locals
 - Apt repository url
 - Packages you want to install
-    
+
+Dependencies
+- bsdtar
+- genisoimage
 # Usage
 
     rebuild-debian-iso <input-iso> <output-iso> <preseed-file> [file-dir]
